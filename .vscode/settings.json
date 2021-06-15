@@ -1,3 +1,4 @@
 {
-    "python.pythonPath": "/Users/ki/project/fa_python/venv/bin/python"
+    "python.pythonPath": "/Users/ki/project/fa_python/venv/bin/python",
+    "python.globalModuleInstallation": true
 }
