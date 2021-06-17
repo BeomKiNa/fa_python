@@ -16,7 +16,7 @@ print("\n--------------------------------------------------------\n")
 
 with open("./resource/sample2.csv", "r", encoding="euc-kr") as f:
     reader = csv.reader(f, delimiter="|")
-    # next(reader) # Header를 싑하기 위해 사용됨, 한 행을 건너뜀
+    # next(reader) # Header를 스킵하기 위해 사용됨, 한 행을 건너뜀
     print(dir(reader))
     print()
 
