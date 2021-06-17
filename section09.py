@@ -9,7 +9,7 @@ content = f.read()
 print(content)
 print(dir(f))
 # 반드시 close로 리소스 반환
-f.close
+f.close()
 
 print("-------------------------------------")
 print("-------------------------------------")
